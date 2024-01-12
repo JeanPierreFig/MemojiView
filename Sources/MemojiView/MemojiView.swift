@@ -25,12 +25,13 @@ public class MemojiView: UIView {
         return tv
     }()
     
-    @available(iOS 13.0, *)
     internal lazy var editImageView: CircularImageView = {
         let i = CircularImageView()
         i.isUserInteractionEnabled = false
         //TODO: Fallback image
-        i.image = UIImage(systemName: "pencil")
+        if #available(iOS 13.0, *) {
+            i.image = UIImage(systemName: "pencil")
+        }
         i.tintColor = .white
         i.translatesAutoresizingMaskIntoConstraints = false
         return i
@@ -69,7 +70,6 @@ public class MemojiView: UIView {
     }
     
     /// Flag indicting whether there should be a edit button.
-    @available(iOS 13.0, *)
     public lazy var showEditButton: Bool = isEditable {
         didSet {
             editImageView.removeFromSuperview()
@@ -80,9 +80,7 @@ public class MemojiView: UIView {
     public override var tintColor: UIColor! {
         didSet {
             imageView.backgroundColor = tintColor.withAlphaComponent(0.2)
-            if #available(iOS 13.0, *) {
-                editImageView.backgroundColor = tintColor
-            }
+            editImageView.backgroundColor = tintColor
         }
     }
     
@@ -116,14 +114,12 @@ public class MemojiView: UIView {
         super.layoutSubviews()
         self.layer.cornerRadius = self.frame.size.height / 2
         
-        if #available(iOS 13.0, *) {
-            guard showEditButton else { return }
-            self.addSubview(editImageView)
-            //TODO: Position view according to size
-            let size = CGSize(width: 30, height: 30)
-            let rect = CGPoint(x: imageView.frame.width - size.width - 15, y: imageView.frame.height - (size.height))
-            editImageView.frame = CGRect(origin: rect, size: size)
-        }
+        guard showEditButton else { return }
+        self.addSubview(editImageView)
+        //TODO: Position view according to size
+        let size = CGSize(width: 30, height: 30)
+        let rect = CGPoint(x: imageView.frame.width - size.width - 15, y: imageView.frame.height - (size.height))
+        editImageView.frame = CGRect(origin: rect, size: size)
     }
     
     //MARK: Functions
