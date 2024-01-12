@@ -21,7 +21,7 @@
 		D0A4D70C2802FDF30042879B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D70B2802FDF30042879B /* AppDelegate.swift */; };
 		D0A4D70E2802FDF30042879B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D70D2802FDF30042879B /* SceneDelegate.swift */; };
 		D0A4D7102802FDF30042879B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D70F2802FDF30042879B /* ViewController.swift */; };
-		D0A4D7132802FDF30042879B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A4D7112802FDF30042879B /* Main.storyboard */; };
+		D0A4D7132802FDF30042879B /* mainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A4D7112802FDF30042879B /* mainViewController.storyboard */; };
 		D0A4D7152802FDFC0042879B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A4D7142802FDFC0042879B /* Assets.xcassets */; };
 		D0A4D7182802FDFC0042879B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A4D7162802FDFC0042879B /* LaunchScreen.storyboard */; };
 		D0A4D71D2802FE180042879B /* MemojiView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A4D6C2280241510042879B /* MemojiView.framework */; };
@@ -71,7 +71,7 @@
 		D0A4D70B2802FDF30042879B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0A4D70D2802FDF30042879B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D0A4D70F2802FDF30042879B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0A4D7122802FDF30042879B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0A4D7122802FDF30042879B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/mainViewController.storyboard; sourceTree = "<group>"; };
 		D0A4D7142802FDFC0042879B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0A4D7172802FDFC0042879B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0A4D7192802FDFC0042879B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -164,7 +164,7 @@
 				D0A4D70B2802FDF30042879B /* AppDelegate.swift */,
 				D0A4D70D2802FDF30042879B /* SceneDelegate.swift */,
 				D0A4D70F2802FDF30042879B /* ViewController.swift */,
-				D0A4D7112802FDF30042879B /* Main.storyboard */,
+				D0A4D7112802FDF30042879B /* mainViewController.storyboard */,
 				D0A4D7142802FDFC0042879B /* Assets.xcassets */,
 				D0A4D7162802FDFC0042879B /* LaunchScreen.storyboard */,
 				D0A4D7192802FDFC0042879B /* Info.plist */,
@@ -286,7 +286,7 @@
 				D000257F28046F54005F8C34 /* demo_text.gif in Resources */,
 				D0A4D7152802FDFC0042879B /* Assets.xcassets in Resources */,
 				D000257C28046F54005F8C34 /* preview1.png in Resources */,
-				D0A4D7132802FDF30042879B /* Main.storyboard in Resources */,
+				D0A4D7132802FDF30042879B /* mainViewController.storyboard in Resources */,
 				D000257E28046F54005F8C34 /* preview2.png in Resources */,
 				D000257B28046F54005F8C34 /* banner.png in Resources */,
 			);
@@ -328,12 +328,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D0A4D7112802FDF30042879B /* Main.storyboard */ = {
+		D0A4D7112802FDF30042879B /* mainViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D0A4D7122802FDF30042879B /* Base */,
 			);
-			name = Main.storyboard;
+			name = mainViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		D0A4D7162802FDFC0042879B /* LaunchScreen.storyboard */ = {
