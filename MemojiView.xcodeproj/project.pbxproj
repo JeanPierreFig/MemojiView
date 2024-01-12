@@ -7,58 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D000257B28046F54005F8C34 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = D000257628046F54005F8C34 /* banner.png */; };
-		D000257C28046F54005F8C34 /* preview1.png in Resources */ = {isa = PBXBuildFile; fileRef = D000257728046F54005F8C34 /* preview1.png */; };
-		D000257D28046F54005F8C34 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = D000257828046F54005F8C34 /* demo.gif */; };
-		D000257E28046F54005F8C34 /* preview2.png in Resources */ = {isa = PBXBuildFile; fileRef = D000257928046F54005F8C34 /* preview2.png */; };
-		D000257F28046F54005F8C34 /* demo_text.gif in Resources */ = {isa = PBXBuildFile; fileRef = D000257A28046F54005F8C34 /* demo_text.gif */; };
 		D0A4D6C6280241510042879B /* MemojiView.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A4D6C5280241510042879B /* MemojiView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0A4D6EE2802F7E20042879B /* MemojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D6ED2802F7E20042879B /* MemojiTextField.swift */; };
 		D0A4D6F12802F86B0042879B /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D6F02802F86B0042879B /* String.swift */; };
 		D0A4D6F32802F8A50042879B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D6F22802F8A50042879B /* Character.swift */; };
 		D0A4D6F52802F91E0042879B /* MemojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D6F42802F91E0042879B /* MemojiView.swift */; };
 		D0A4D6FA2802FA650042879B /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D6F92802FA650042879B /* CircularImageView.swift */; };
-		D0A4D70C2802FDF30042879B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D70B2802FDF30042879B /* AppDelegate.swift */; };
-		D0A4D70E2802FDF30042879B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D70D2802FDF30042879B /* SceneDelegate.swift */; };
-		D0A4D7102802FDF30042879B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D70F2802FDF30042879B /* ViewController.swift */; };
-		D0A4D7132802FDF30042879B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A4D7112802FDF30042879B /* Main.storyboard */; };
-		D0A4D7152802FDFC0042879B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A4D7142802FDFC0042879B /* Assets.xcassets */; };
-		D0A4D7182802FDFC0042879B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0A4D7162802FDFC0042879B /* LaunchScreen.storyboard */; };
-		D0A4D71D2802FE180042879B /* MemojiView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A4D6C2280241510042879B /* MemojiView.framework */; };
-		D0A4D71E2802FE180042879B /* MemojiView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0A4D6C2280241510042879B /* MemojiView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D0A4D71F2802FE180042879B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0A4D6B9280241510042879B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0A4D6C1280241510042879B;
-			remoteInfo = MemojiView;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		D0A4D7212802FE180042879B /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D0A4D71E2802FE180042879B /* MemojiView.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D000257328043A22005F8C34 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D000257628046F54005F8C34 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
-		D000257728046F54005F8C34 /* preview1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview1.png; sourceTree = "<group>"; };
-		D000257828046F54005F8C34 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
-		D000257928046F54005F8C34 /* preview2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview2.png; sourceTree = "<group>"; };
-		D000257A28046F54005F8C34 /* demo_text.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo_text.gif; sourceTree = "<group>"; };
 		D0A4D6C2280241510042879B /* MemojiView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MemojiView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0A4D6C5280241510042879B /* MemojiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemojiView.h; sourceTree = "<group>"; };
 		D0A4D6ED2802F7E20042879B /* MemojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemojiTextField.swift; sourceTree = "<group>"; };
@@ -66,14 +24,6 @@
 		D0A4D6F22802F8A50042879B /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		D0A4D6F42802F91E0042879B /* MemojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemojiView.swift; sourceTree = "<group>"; };
 		D0A4D6F92802FA650042879B /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
-		D0A4D7092802FDF30042879B /* MemojiViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemojiViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0A4D70B2802FDF30042879B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0A4D70D2802FDF30042879B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0A4D70F2802FDF30042879B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D0A4D7122802FDF30042879B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0A4D7142802FDFC0042879B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0A4D7172802FDFC0042879B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D0A4D7192802FDFC0042879B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D89EC42B2A78F09F00F0E14E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,36 +35,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0A4D7062802FDF30042879B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0A4D71D2802FE180042879B /* MemojiView.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D000257528046F43005F8C34 /* Preview */ = {
-			isa = PBXGroup;
-			children = (
-				D000257628046F54005F8C34 /* banner.png */,
-				D000257A28046F54005F8C34 /* demo_text.gif */,
-				D000257828046F54005F8C34 /* demo.gif */,
-				D000257728046F54005F8C34 /* preview1.png */,
-				D000257928046F54005F8C34 /* preview2.png */,
-			);
-			path = Preview;
-			sourceTree = "<group>";
-		};
 		D0A4D6B8280241510042879B = {
 			isa = PBXGroup;
 			children = (
 				D000257328043A22005F8C34 /* LICENSE */,
 				D89EC42B2A78F09F00F0E14E /* Package.swift */,
 				D89EC42D2A78F14000F0E14E /* Sources */,
-				D0A4D70A2802FDF30042879B /* MemojiViewDemo */,
 				D0A4D6C3280241510042879B /* Products */,
 				D0A4D6E42802418B0042879B /* Frameworks */,
 			);
@@ -124,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				D0A4D6C2280241510042879B /* MemojiView.framework */,
-				D0A4D7092802FDF30042879B /* MemojiViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,21 +83,6 @@
 				D0A4D6F22802F8A50042879B /* Character.swift */,
 			);
 			path = Extension;
-			sourceTree = "<group>";
-		};
-		D0A4D70A2802FDF30042879B /* MemojiViewDemo */ = {
-			isa = PBXGroup;
-			children = (
-				D000257528046F43005F8C34 /* Preview */,
-				D0A4D70B2802FDF30042879B /* AppDelegate.swift */,
-				D0A4D70D2802FDF30042879B /* SceneDelegate.swift */,
-				D0A4D70F2802FDF30042879B /* ViewController.swift */,
-				D0A4D7112802FDF30042879B /* Main.storyboard */,
-				D0A4D7142802FDFC0042879B /* Assets.xcassets */,
-				D0A4D7162802FDFC0042879B /* LaunchScreen.storyboard */,
-				D0A4D7192802FDFC0042879B /* Info.plist */,
-			);
-			path = MemojiViewDemo;
 			sourceTree = "<group>";
 		};
 		D89EC42D2A78F14000F0E14E /* Sources */ = {
@@ -212,25 +125,6 @@
 			productReference = D0A4D6C2280241510042879B /* MemojiView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D0A4D7082802FDF30042879B /* MemojiViewDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0A4D71A2802FDFC0042879B /* Build configuration list for PBXNativeTarget "MemojiViewDemo" */;
-			buildPhases = (
-				D0A4D7052802FDF30042879B /* Sources */,
-				D0A4D7062802FDF30042879B /* Frameworks */,
-				D0A4D7072802FDF30042879B /* Resources */,
-				D0A4D7212802FE180042879B /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D0A4D7202802FE180042879B /* PBXTargetDependency */,
-			);
-			name = MemojiViewDemo;
-			productName = MemojiViewDemo;
-			productReference = D0A4D7092802FDF30042879B /* MemojiViewDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,9 +138,6 @@
 					D0A4D6C1280241510042879B = {
 						CreatedOnToolsVersion = 13.3;
 						LastSwiftMigration = 1330;
-					};
-					D0A4D7082802FDF30042879B = {
-						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
@@ -264,7 +155,6 @@
 			projectRoot = "";
 			targets = (
 				D0A4D6C1280241510042879B /* MemojiView */,
-				D0A4D7082802FDF30042879B /* MemojiViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -274,21 +164,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0A4D7072802FDF30042879B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0A4D7182802FDFC0042879B /* LaunchScreen.storyboard in Resources */,
-				D000257D28046F54005F8C34 /* demo.gif in Resources */,
-				D000257F28046F54005F8C34 /* demo_text.gif in Resources */,
-				D0A4D7152802FDFC0042879B /* Assets.xcassets in Resources */,
-				D000257C28046F54005F8C34 /* preview1.png in Resources */,
-				D0A4D7132802FDF30042879B /* Main.storyboard in Resources */,
-				D000257E28046F54005F8C34 /* preview2.png in Resources */,
-				D000257B28046F54005F8C34 /* banner.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,44 +182,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0A4D7052802FDF30042879B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D0A4D7102802FDF30042879B /* ViewController.swift in Sources */,
-				D0A4D70C2802FDF30042879B /* AppDelegate.swift in Sources */,
-				D0A4D70E2802FDF30042879B /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D0A4D7202802FE180042879B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0A4D6C1280241510042879B /* MemojiView */;
-			targetProxy = D0A4D71F2802FE180042879B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D0A4D7112802FDF30042879B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0A4D7122802FDF30042879B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0A4D7162802FDFC0042879B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0A4D7172802FDFC0042879B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0A4D6C7280241510042879B /* Debug */ = {
@@ -538,64 +376,6 @@
 			};
 			name = Release;
 		};
-		D0A4D71B2802FDFC0042879B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2E2G8B343X;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MemojiViewDemo/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emrearmagan.MemojiViewDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D0A4D71C2802FDFC0042879B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2E2G8B343X;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MemojiViewDemo/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.emrearmagan.MemojiViewDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -613,15 +393,6 @@
 			buildConfigurations = (
 				D0A4D6CA280241510042879B /* Debug */,
 				D0A4D6CB280241510042879B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0A4D71A2802FDFC0042879B /* Build configuration list for PBXNativeTarget "MemojiViewDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0A4D71B2802FDFC0042879B /* Debug */,
-				D0A4D71C2802FDFC0042879B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
