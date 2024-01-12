@@ -20,5 +20,9 @@ let package = Package(
             name: "MemojiViewTests",
             dependencies: ["MemojiView"],
             path: "Tests"),
+        .target(
+            name: "MemojiViewDemo",
+            dependencies: ["MemojiView"],
+            path: "Sources/MemojiViewDemo"),
     ]
 )
