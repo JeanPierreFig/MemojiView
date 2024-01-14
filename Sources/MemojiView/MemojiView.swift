@@ -37,7 +37,7 @@ public class MemojiView: UIView {
         return i
     }()
     
-    private var _imageInsets: UIEdgeInsets = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20) {
+    public var _imageInsets: UIEdgeInsets = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20) {
         didSet {
             imageView.imageInsets = _imageInsets
         }
